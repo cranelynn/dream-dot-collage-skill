@@ -1,35 +1,36 @@
 # Negative Constraints
 
-Reject or revise a result if any of the following appear:
+Reject or revise the result if any hard failure appears.
 
-## Reference misuse
-- Elements from two or more reference images are fused into one result.
-- A key person, pet, or object has been changed so much that it is no longer recognizable.
-- The model invents details that are not supported by the source image.
+## Source integrity
+- Content from two or more reference photos appears in one result.
+- A person, building, or object has been altered enough to lose recognizable source details.
+- The model invents hidden features or fills missing regions without support.
+
+## Fake extraction
+- The full source image is used as the circle fill or as a large scenic background.
+- A supposedly extracted element still contains its original rectangular background.
+- The image only crops the photo into a circle or rectangle.
+- White borders surround a rectangular image canvas rather than following the subject silhouette.
+- A generated lookalike is substituted for the source subject.
 
 ## Circle misuse
-- The dream circle is filled with a photo, landscape, room, or detailed scene.
-- The circle loses its role as the main graphic shape.
-- The interior becomes crowded with many objects.
+- The circle contains a photo, landscape, room, or detailed panorama.
+- The circle is visually lost among competing elements.
+- Too many objects fill the circle's interior.
 
-## Clutter
-- Too many floating objects, stars, sparkles, dots, labels, or orbit lines.
-- Every gap is decorated and there is no negative space.
-- Several elements compete equally for attention.
-- The result resembles a sticker sheet, mood board, or random scrapbook rather than one composed image.
+## Clutter and weak hierarchy
+- Every gap is decorated.
+- Lines, labels, stars, and symbols compete with the photo cutouts.
+- All cutouts are the same size or arranged mechanically.
+- The output resembles an unstructured sticker sheet rather than a designed composition.
 
 ## Style drift
-- Overly thick cartoon outlines or a highly detailed puppy.
-- Heavy glow, lens flare, metallic/enamel effects, glitter overload, or excessive 3D rendering.
-- Forced purple or neon color schemes unrelated to the reference.
-- Strong grunge, noisy textures, or busy gradients that weaken the calm dream atmosphere.
+- Thick cartoon outlines, heavy glow, lens flare, glitter overload, metallic effects, or excessive 3D rendering.
+- A forced purple/neon palette unrelated to the source.
+- The puppy is over-detailed or becomes the main subject.
+- Large unrequested text, illegible paragraphs, watermarks, or logos appear.
 
-## Layout problems
-- Cutouts are all the same size and arranged mechanically.
-- The puppy, circle, or extracted subjects are clipped unintentionally.
-- Important faces are covered or placed too close to the edge.
-- Decorative elements are larger or more visually dominant than the main subject.
-
-## Output problems
-- Multiple alternatives or a grid are generated when one image was requested.
-- Text, captions, watermarks, or logos are added without being requested.
+## Output format
+- A grid or multi-panel image is generated when one output was requested.
+- Separate source photos are fused rather than processed independently.
