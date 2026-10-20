@@ -1,0 +1,12 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local source images and exports
+source-photos/
+exports/
+*.psd
+*.xcf
+*.afdesign
