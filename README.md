@@ -1,43 +1,56 @@
 # Dream Dot Collage Skill
 
-A focused image-generation Skill for turning **one reference photo into one restrained dream-core collage**.
+A focused image-generation Skill for making a dream-core collage from **one reference photo at a time**.
 
-The visual signature:
-- A minimal line-art puppy sleeping peacefully.
-- One large dream circle with a clean, solid-color interior.
-- A small number of isolated cutouts extracted from the same reference photo.
-- A few quiet symbolic details, such as candy, origami cranes, stars, or a single orbit line.
-- Editorial spacing, a controlled palette, and a dreamy atmosphere without visual clutter.
+## Visual signature
 
-## Core rule
+- One large circle with a clean, solid-color interior.
+- Two to five independent photo cutouts taken from the same source image.
+- Clean white die-cut borders that follow each subject's silhouette.
+- A minimal line-art sleeping puppy.
+- Delicate hand-drawn paths, stars, moons, tiny dots, and optional handwritten labels.
+- A cohesive palette, editorial layering, and a rich-but-controlled scrapbook feeling.
 
-**One reference image = one independent output.** Never blend content from multiple reference images into one collage. If a user provides several images, treat each as a separate task or ask which single image to process first.
+## The most important rule
 
-## Files
+**One reference image = one independent output.** Never fuse content from separate uploaded photos. Multiple cutouts are welcome only when they all come from the same selected photo. If the user supplies several photos, process each separately.
 
-- `SKILL.md` — primary Skill instructions and workflow.
-- `references/visual-direction.md` — mood, palette, line work, and texture.
-- `references/composition-rules.md` — hierarchy, spacing, and placement.
-- `references/photo-extraction.md` — source fidelity and cutout handling.
-- `references/negative-constraints.md` — failure modes to avoid.
-- `references/quality-checklist.md` — final quality gate.
-- `examples/prompt-template.md` — reusable generation prompt template.
+## Real extraction is required
+
+The Skill explicitly distinguishes cutouts from crops. A cutout must have its background removed and a silhouette that follows the subject; a rectangle, circle crop, or original photo used as a background does not qualify. If the active image model cannot guarantee accurate extraction, use a dedicated masking/compositing workflow where available and disclose limitations.
+
+## Repository structure
+
+- SKILL.md — core instructions and required workflow.
+- references/visual-direction.md — mood, palette, lines, and texture.
+- references/composition-rules.md — hierarchy, layering, and spacing.
+- references/photo-extraction.md — extraction and source-fidelity rules.
+- references/negative-constraints.md — failure modes to reject.
+- references/quality-checklist.md — final acceptance gates.
+- examples/prompt-template.md — reusable generation prompt.
+- examples/example-cases.md — two separate example plans based on the selected travel photos.
+
+## Example cases
+
+The two chosen reference photos are intended as **two independent demos**, not as ingredients for a single collage:
+1. **Dolomites mountain village** — extract the mountain ridge, church/village cluster, and one small natural detail from that photo only.
+2. **Gothic cathedral with a visitor** — extract the visitor and selected architectural details from that photo only.
+
+The repository currently contains the case plans and prompt template. Finished before/after image assets still need to be added before these can be presented as fully visual demos.
 
 ## How to use
 
-1. Provide one reference image.
-2. Ask for a Dream Dot Collage treatment.
-3. Keep the main subject recognizable and select only a few supporting details from that image.
-4. Generate one finished composition, then refine only the elements that fail the quality checklist.
+1. Select one photo.
+2. Inspect and isolate 2–5 meaningful elements from that photo.
+3. Compose those cutouts around a solid-color circle with white borders and a few fine doodles.
+4. Run the quality checklist and revise if the cutouts are not real, independent silhouettes.
 
-This repository provides prompt and composition guidance. The actual image-generation capability depends on the model or application in which the Skill is used.
+This repository provides prompt and composition guidance. Results depend on the image model and tools available in the host application.
 
-## Design principles
+## Design principle
 
-**Quiet, not empty. Dreamlike, not chaotic. Source-faithful, not a generic sticker collage.**
-
-The circle is a graphic color field, not a window onto another scene. Photo-derived elements remain separate, small, recognizable accents. The puppy and symbols create a dream narrative while generous negative space keeps the image composed.
+**Rich in detail, clear in hierarchy.** The photo-derived elements carry the personal memory; the circle, puppy, lines, and tiny labels provide a consistent visual system without replacing the source photo.
 
 ## License
 
-This project is licensed under the MIT License. See [LICENSE](LICENSE).
+This project is licensed under the MIT License. See LICENSE.
