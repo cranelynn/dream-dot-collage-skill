@@ -1,34 +1,33 @@
 # Quality Checklist
 
-Before accepting a result, review each criterion.
+Review each result before delivery. A hard-gate failure means the result must be revised, not merely scored lower.
 
-## Required gates
-- [ ] Exactly one reference image informs this output.
-- [ ] The result is one finished composition.
-- [ ] A minimal line-art sleeping puppy is present and readable.
-- [ ] One large circle anchors the design.
-- [ ] The circle interior is solid color or nearly flat, not a photo scene.
-- [ ] One to three small cutouts come from the same reference image.
-- [ ] Important source subjects remain recognizable.
-- [ ] The cutouts are independent accents rather than a full-photo background.
-
-If any required gate fails, revise before delivery.
+## Hard gates
+- [ ] Exactly one reference photo informs this output.
+- [ ] This is one finished composition for that source photo.
+- [ ] The main source subject remains recognizable.
+- [ ] At least one source element is visibly isolated with a silhouette that follows its shape.
+- [ ] The supposed cutout has no large piece of its original background attached.
+- [ ] The large circle is a solid-color graphic field, not a photo or scenic panel.
+- [ ] No elements from another reference photo appear.
+- [ ] The photo-derived elements remain separate rather than being reconstructed into the original full scene.
 
 ## Design quality
-- [ ] The circle is the dominant graphic shape.
-- [ ] The hierarchy is immediately understandable at thumbnail size.
-- [ ] The palette feels cohesive and is not forced into purple.
-- [ ] There is generous negative space.
-- [ ] Symbolic details are limited and purposeful.
-- [ ] Line weights and cutout treatments feel consistent.
-- [ ] The dream mood comes from composition, not excessive effects.
+- [ ] The hierarchy reads clearly at thumbnail size.
+- [ ] There are 2–5 useful cutouts from the same source image, where feasible.
+- [ ] White die-cut borders follow the cutout silhouettes and have consistent visual weight.
+- [ ] The sleeping puppy is small and drawn with simple, delicate lines.
+- [ ] Doodles and labels add rhythm without obscuring photo details.
+- [ ] The palette complements the source rather than forcing purple.
+- [ ] The composition feels rich but still has breathing room.
+- [ ] No decoration is present merely to fill an empty space.
 
-## Integrity and finish
-- [ ] No faces or objects are distorted, duplicated, or merged.
-- [ ] No source details are invented to fill gaps.
-- [ ] No unrequested typography, watermark, or logo appears.
-- [ ] Margins and overlaps are intentional.
-- [ ] The final image feels calm, personal, and art-directed rather than random.
+## Fidelity and finish
+- [ ] No faces, bodies, architecture, or objects are distorted or duplicated.
+- [ ] No unsupported source details have been invented.
+- [ ] Cutout edges have no obvious leftover background halos.
+- [ ] No unrequested watermark, logo, or large title appears.
+- [ ] Important content has safe margins and intentional overlaps.
 
-## Quick final test
-Ask: “Can I identify the puppy, the solid-color dream circle, and the few personal elements from the source within two seconds?” If not, simplify the composition and strengthen the hierarchy.
+## Final two-second test
+Can a viewer immediately see the solid-color circle, the separate photo cutouts, and the sleeping puppy? Can they tell that every photo cutout came from the same source photo? If not, simplify or rebuild the composition.
