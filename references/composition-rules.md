@@ -1,30 +1,39 @@
 # Composition Rules
 
-## Hierarchy
-1. Large solid-color dream circle.
-2. Minimal sleeping puppy.
-3. One to three photo-derived cutouts from the selected reference.
-4. One to three small symbolic accents.
+## Visual hierarchy
+1. One large solid-color circle.
+2. One or two dominant photo cutouts from the selected source image.
+3. Smaller cutouts from that same image.
+4. Sleeping puppy, fine doodle lines, tiny labels, and small symbols.
 
-The hierarchy may shift slightly to suit the source image, but the composition must retain one dominant focal area.
+The collage may feel rich and layered, but its hierarchy should be clear at thumbnail size.
 
-## The dream circle
-- Make it large enough to anchor the layout, usually around 35–55% of the canvas width.
-- Use a single flat color or a nearly imperceptible tonal variation.
-- Leave the interior mostly empty. A few symbols may sit inside it, but do not turn it into a miniature landscape.
-- Do not use a cropped photo or complex scene as the circle fill.
+## Dream circle
+- Usually occupy around 45–65% of the canvas width, adjusted to the source image and layout.
+- Use a solid color or nearly flat fill.
+- Never place the full source photo, a circular crop, or a scenic panorama inside the circle.
+- Let isolated cutouts overlap the circle edge when this adds depth; keep the circle itself simple.
 
-## Puppy placement
-Place the sleeping puppy close to the circle's edge, beneath it, or partially overlapping its perimeter. Keep the pose calm and compact. The puppy should support the dream concept without blocking the extracted source elements.
+## Photo cutouts
+- Use 2–5 independent elements from the one selected photo.
+- The cutout edge must follow the subject silhouette. Do not leave a rectangular background around it.
+- Add a clean white die-cut border, consistent in thickness but not so thick that it resembles a cartoon sticker.
+- Vary scale and angle slightly; avoid a rigid grid or evenly spaced sticker row.
+- Keep faces and distinctive details unobstructed.
+- Do not reassemble cutouts into the original complete scene.
+- Never add a complete second reference photo as a rectangular panel.
 
-## Source cutouts
-Place one to three cutouts as small accents around the circle or at carefully chosen points along its edge. Vary their sizes slightly, but avoid creating a row of evenly spaced stickers. Use overlap only when it clarifies depth; never let overlaps obscure important faces or object details.
+## Puppy
+Place a small sleeping puppy near the lower edge of the circle or beneath it. Use minimal line art, relaxed closed eyes, and a compact pose. It should support the dream narrative without competing with the main cutouts.
 
-## Symbol placement
-Choose only a few symbols. A candy or origami crane may add a whimsical note, while one short orbit line or a tiny star can connect the composition. Avoid scattering the same symbol repeatedly.
+## Doodles and small typography
+Use a consistent set of fine hand-drawn lines: orbit paths, short trails, stars, moons, dots, hearts, or small motion marks. A paper crane or candy may be included if it suits the source. Optional handwritten labels should be short—one to three words—and secondary to the photo elements. Avoid paragraphs, large titles, and illegible pseudo-text.
 
-## Negative space
-Keep clear breathing room around the circle and between cutouts. Do not fill every empty area. Use asymmetry with intention: visual weight should feel balanced even if objects are not centered.
+## Richness without clutter
+- Create depth through intentional overlaps, scale variation, and line paths.
+- Leave a few calm areas; do not fill every gap.
+- Keep decorative elements smaller and lower-contrast than the main photo cutouts.
+- Use one main palette and avoid introducing unrelated bright colors.
 
-## Canvas and finish
-Unless the user specifies otherwise, use a portrait-friendly 4:5 or square composition depending on the reference and intended platform. Keep important elements away from the edges. Deliver one finished image rather than a contact sheet or multi-panel collage.
+## Canvas
+Default to portrait 4:5 for a travel-journal poster, unless the user requests square or landscape. Keep important details inside safe margins. Deliver one finished image for each source photo, not a multi-panel fusion.
