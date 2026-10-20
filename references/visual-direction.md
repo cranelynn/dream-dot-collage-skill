@@ -1,27 +1,32 @@
 # Visual Direction
 
 ## Mood
-Gentle, intimate, quietly surreal, and slightly nostalgic. The image should feel like a small fragment of a dream remembered in the morning, not a fantasy poster or a maximalist scrapbook.
+A personal dream-journal or art-directed travel scrapbook: intimate, whimsical, slightly surreal, and visually rich without feeling chaotic. The finish should feel contemporary and editorial, not like a generic sticker sheet.
 
 ## Shape language
-- Main shape: one large, clean circle or softly imperfect hand-drawn circle.
-- Puppy: minimal continuous or near-continuous line art; relaxed closed eyes, compact sleeping posture, few facial details.
-- Source cutouts: clean silhouettes or carefully isolated subjects with restrained edge treatment.
-- Symbols: simple, legible shapes such as a candy, origami crane, tiny star, moon, or a short orbit arc.
+- One large clean circle as the main graphic field.
+- Real photographic cutouts with white die-cut borders.
+- A minimal line-art sleeping puppy.
+- Fine orbit paths, curved trails, stars, moons, dots, hearts, and small motion marks.
+- Optional tiny handwritten labels, kept short and secondary.
 
-## Palette
-Start with colors already present in the reference image, then simplify them into a cohesive palette. Use a quiet background and a distinct solid color for the circle. Purple is optional, never mandatory. Avoid using every color from the source image.
+## Color
+Sample the source photo's dominant colors and simplify them into a controlled palette. Warm white or cream works well as a page background; a solid dusty blue, muted green, pale apricot, or another source-compatible color can fill the circle. Purple is optional, never mandatory. Keep the illustrated accents coherent with the photographic cutouts.
 
-A useful default is 2–4 supporting colors plus the original colors retained in the photo cutouts. Keep contrast strong enough for the puppy and cutouts to read at small sizes.
-
-## Texture and light
-Use texture sparingly: a faint paper grain or soft print-like finish is acceptable if it improves cohesion. Avoid heavy glow, lens flare, glitter clouds, dense speckles, and dramatic cinematic lighting. The dream quality should come from scale, spacing, and juxtaposition rather than effects.
+## Cutout edges
+Use clean white borders that follow the exact silhouette of each isolated element. The border should be visible against the circle but remain fine enough to preserve delicate contours. Avoid rectangular white frames unless a deliberate printed-photo element is explicitly requested.
 
 ## Line work
-Prefer delicate, confident, consistent strokes. Avoid thick black cartoon outlines, excessive sketch marks, and inconsistent line weights. The puppy should read immediately as a sleeping dog without becoming a detailed character illustration.
+Use thin, confident, hand-drawn lines with consistent weight. Lines can orbit the circle, connect distant accents, or create a subtle sense of movement. Avoid tangled scribbles and lines that cross faces or obscure important details.
 
-## Photo and illustration balance
-Keep extracted photo elements visually recognizable. The line-art puppy and symbolic accents can be illustrated, while photo-derived subjects retain natural photographic details. Integrate them through scale, spacing, and color relationships rather than turning every element into the same sticker style.
+## Typography
+If labels improve the composition, use only a few tiny handwritten words such as a place name or short mood phrase. Keep them legible, correctly spelled when possible, and visually secondary. Do not generate long captions, random letter strings, or prominent titles by default.
+
+## Texture and light
+A slight paper texture is optional. Avoid heavy glow, lens flare, dense glitter, strong grain, and dramatic effects. Dreaminess should come from scale, juxtaposition, linework, and color—not a mass of effects.
+
+## Photo/illustration balance
+Keep extracted photo subjects photographic and source-faithful. The puppy, stars, crane, candy, and linework may be illustrated. Do not force every element into a uniform cartoon style.
 
 ## Desired impression
-At first glance, viewers should notice the large circle and the calm puppy. On a closer look, they should discover the personal details extracted from the reference photo and the few small dream symbols.
+At first glance, the image feels like a composed travel dream. At second glance, the viewer discovers small photo details, hand-drawn trails, and tiny labels. Every element feels placed intentionally.
