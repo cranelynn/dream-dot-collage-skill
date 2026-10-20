@@ -40,4 +40,4 @@ The circle is a graphic color field, not a window onto another scene. Photo-deri
 
 ## License
 
-No license has been added. Unless a license is added later, reuse permissions should not be assumed.
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
