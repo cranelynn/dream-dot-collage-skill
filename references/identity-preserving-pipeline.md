@@ -23,3 +23,13 @@ Use consistent thin white borders following alpha contours; avoid borders around
 
 ## Demo policy
 Do not commit uploaded private photographs or derived portraits to a public repository unless the owner explicitly approves publishing those specific images. The user's request to use images for a demo allows preparation, not automatic public publication before reviewing the output.
+
+## Zero-defect face acceptance test
+
+- Never run generative enhancement, synthesis, inpainting, skin smoothing or restoration on face, hair, or body pixels.
+- Inspect original and final face crops at matched scale, including eyes, nose, mouth, cheek, jaw, hairline, and glasses if present.
+- Compare final image against the original mask-cropped RGB layer. Unexpected black marks, dark patches, smudges, discoloration, wrong facial structure, or missing details are automatic release blockers.
+- Prefer source-only RGB composite with premultiplied or correctly handled alpha to avoid dark halo and black-edge artifacts.
+- Keep die-cut borders outside the foreground mask. Do not draw decorative marks across faces.
+- If automated masking cannot preserve exact appearance, stop and request manual mask refinement; do not substitute a generative lookalike.
+- Publish no before/after demo until the user has explicitly approved the exact resulting image.
