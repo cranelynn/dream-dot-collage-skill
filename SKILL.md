@@ -32,6 +32,12 @@ For a source photo containing a person, **do not send their face or body through
 
 See [Identity-preserving implementation](references/identity-preserving-pipeline.md).
 
+## Face-protection release gate
+
+For any human subject, the source photo is the sole source of person pixels. Never use a generative model to redraw, beautify, enhance, inpaint, expand, or repair any part of the face, hair, or body. Mask and composite original pixels only. If a composition uses a generated image for layout exploration, remove its synthetic person entirely and substitute the original source cutout without any generative pass afterward.
+
+**Mandatory pre-delivery review:** inspect a side-by-side 100% crop of the original face and final face; check facial landmarks, skin texture, colors, hair, edges, and defects. A dark spot, black mark, stain, accidental shadow, altered nose/mouth/eyes, or a non-source facial mark is an automatic fail. Verify that original RGB values are preserved before final resizing and color output (allow only explicitly disclosed resampling/compression effects). If you cannot verify these checks, do not call the result a successful identity-preserving edit or release it as a demo.
+
 ## Required workflow
 
 ### Stage A — inspect and extract
