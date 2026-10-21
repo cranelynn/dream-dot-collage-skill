@@ -18,6 +18,20 @@ Create a polished, richly detailed travel-journal-style dream collage. The visua
 7. **Rich but art-directed.** White cutout edges, thin hand-drawn paths, orbit lines, tiny stars, moons, dots, hearts, and a few handwritten words are encouraged. Keep clear hierarchy and intentional spacing; do not decorate every empty area.
 8. **Original design, not imitation.** Use the general principles in this Skill; do not reproduce a specific artist's signature composition or copy an existing artwork.
 
+## Identity-preserving production mode (mandatory for people)
+
+For a source photo containing a person, **do not send their face or body through a generative redraw stage**. Pixel-preserving extraction and layer compositing are mandatory for any claim of identity fidelity:
+
+1. Read the single selected source photo and create a foreground segmentation mask for the person (manual polygon, GrabCut, or reliable segmentation).
+2. Apply the mask to the original photo pixels to create an RGBA cutout. Do not reconstruct or inpaint the face, hair, limbs, or clothing.
+3. Add the white outline using mask dilation or the alpha channel, never by asking a model to redraw the subject.
+4. Generate or draw the dog, circle, stars, lines, and labels separately from the person's pixel layer.
+5. Composite the original RGBA cutout on top of the graphic background with image tools. The final face-region pixels must originate in the provided photo, except for explicit user-requested recoloring.
+6. If accurate extraction is not feasible, **do not regenerate a lookalike**. Explain the problem, use a smaller faithful crop with clear labeling if the user accepts it, or choose non-person cutouts. A pretty but identity-altered result is a failure.
+7. For demo acceptance, inspect original and output faces side by side. Do not upload an unapproved visual demo to the public repository.
+
+See [Identity-preserving implementation](references/identity-preserving-pipeline.md).
+
 ## Required workflow
 
 ### Stage A — inspect and extract
