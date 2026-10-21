@@ -2,6 +2,14 @@
 
 Review each result before delivery. A hard-gate failure means the result must be revised, not merely scored lower.
 
+## Face-preservation blockers (automatic FAIL)
+- [ ] The original face pixels are preserved without generative editing or retouching.
+- [ ] No new black marks, dark patches, smudges, unexpected shadows, or discoloration appear on the face.
+- [ ] Face geometry, expression, skin texture, glasses, and hairstyle remain faithful.
+- [ ] Original-vs-output face crops have been compared at matched scale.
+- [ ] Cutout alpha edges show no dark contamination or incorrect blending.
+- [ ] If any check is unverified, the image is not approved and cannot be added as a public demo.
+
 ## Hard gates
 - [ ] Exactly one reference photo informs this output.
 - [ ] This is one finished composition for that source photo.
